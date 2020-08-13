@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+.pregunta {
+  background-image: url("src/assets/img/fondo_principal.png");
+  background-repeat: no-repeat;
+  background-color: #fff;
+  background-position-y: center;
+  padding: 10px 40px;
+  text-align: justify;
+  color: darkblue;
+}
+
+.comentario {
+  background-image: url("src/assets/img/fondo_principal.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #fff;
+  background-position-y: center;
+  padding: 10px 40px;
+  color: darkblue;
+}
