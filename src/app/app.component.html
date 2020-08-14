@@ -1,43 +1,32 @@
+<div class="principal">
 
 
-<form autocomplete="off"  #forma=ngForm>
+  <form autocomplete="off"  #forma=ngForm>
 
-<div class="container">
-  <div class="row mt-5">
-              <div  class="col-2">
-                <label>Texto</label>
-              </div>
-
-              <div  class="col-10">
+    <div class="container">
+      <div class="row pt-2">
+        <div  class="col">
 
                 <textarea id="w3review" name="texto" class="form-control"
                           [(ngModel)] = "texto" placeholder="Ingrese texto" rows="4" cols="50">
                 </textarea>
 
-              </div>
+        </div>
 
-  </div>
+      </div>
 
-  <hr />
+      <hr />
 
-  <div class="row">
-    <div  class="col pregunta">
-      {{ texto }}
+      <div class="row">
+        <div  class="col pregunta">
+          {{ texto }}
+        </div>
+      </div>
+
+
+
     </div>
-  </div>
 
-  <hr />
-
-  <div class="row">
-    <div  class="col-3">
-    </div>
-    <div  class="col-6 comentario">
-      {{ texto }}
-    </div>
-    <div  class="col-3">
-    </div>
-  </div>
+  </form>
 
 </div>
-
-</form>
